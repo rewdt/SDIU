@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "MuseoSansRounded100";
+  src: url(./assets/fonts/MuseoSansRounded100.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "MuseoSansRounded";
+  src: url(./assets/fonts/MuseoSansRounded300.otf) format("opentype");
+}
+@font-face {
+  font-family: "MuseoSansRounded500";
+  src: url(./assets/fonts/MuseoSansRounded500.otf) format("opentype");
+}
+@font-face {
+  font-family: "MuseoSansRounded700";
+  src: url(./assets/fonts/MuseoSansRounded700.otf) format("opentype");
+}
+@font-face {
+  font-family: "MuseoSansRounded900";
+  src: url(./assets/fonts/MuseoSansRounded900.otf) format("opentype");
+}
+@font-face {
+  font-family: "MuseoSansRounded1000";
+  src: url(./assets/fonts/MuseoSansRounded1000.otf) format("opentype");
+}
+body {
+  margin: 0;
+  /* height: 100vh; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration-line: underline;
+}
+
+.errorText {
+  color: red;
+  font-size: 0.7rem !important;
+}
+
+.text {
+  font-size: 14;
+}
+.ageCell {
+  text-align: left;
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; */
+}
+.MuiDataGrid-root,
+.MuiDataGrid-columnsContainer {
+  border: 0 !important;
+  border-bottom: 0 !important;
+}
+.Mui-even {
+  background-color: #f1f3f5;
+}
+
+.MuiPaginationItem-page.Mui-selected {
+  background-color: #31a05f !important;
+  color: #ffffff;
+  border: 0;
+  border-radius: 0;
+}
